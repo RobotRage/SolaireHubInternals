@@ -1,5 +1,7 @@
 #pragma once
 
+void Run();
+
 class Vector3;
 class Player
 {
@@ -13,7 +15,9 @@ public:
 
 	int* GetHealth();
 	int* GetTeam();
+	int* mbspotted();
 	Vector3* GetOrigin();
 	Vector3* GetViewOffset();
 	Vector3* GetBonePos(int boneID);
+	
 };

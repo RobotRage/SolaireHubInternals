@@ -11,12 +11,12 @@ oldversion = oldlines[3]
 time.sleep(0.1)
 
 #Check if it exists, and delete if it does
-if (os.path.isfile("x64\Debug\CSGO_Internals.dll")):
+if (os.path.isfile("Debug\CSGO_Internals.dll")):
 	print("SolaireHubInternals exists, deleting...")
-	os.remove("x64\Debug\CSGO_Internals.dll")
+	os.remove("Debug\CSGO_Internals.dll")
 	time.sleep(0.1)
 	#Check again if it was actually deleted
-	if (os.path.isfile("x64\Debug\CSGO_Internals.dll")):
+	if (os.path.isfile("Debug\CSGO_Internals.dll")):
 		print("Something went wrong, I might not have the right permissions")
 	else:
 		print("Deleted successfully!")
@@ -56,7 +56,7 @@ os.remove('donttouch.bat')
 
 time.sleep(0.1)
 #Check if it worked
-if (os.path.isfile("x64\Debug\CSGO_Internals.dll")):
+if (os.path.isfile("Debug\CSGO_Internals.dll")):
 	print("Build successful!")
 	time.sleep(0.1)
 	print("Old vs new build dates:")
@@ -64,3 +64,6 @@ if (os.path.isfile("x64\Debug\CSGO_Internals.dll")):
 	print(newversion)
 else:
 	print("Build failed... please check Visual Studio for errors")
+
+print("")
+input("Press enter to exit ")

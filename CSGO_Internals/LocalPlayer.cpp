@@ -63,7 +63,7 @@ void LocalPlayer::AimAt(Vector3* target)
 	float yaw = atan2(deltaVec.y, deltaVec.x) * (180 / PI);
 
 	//if (pitch >= -89 && pitch <= 89 && yaw >= -180 && yaw <= 180)
-	if (pitch >= -89 && pitch <= 89 && yaw >= -180 && yaw <= 180)
+	if (pitch >= -89 && pitch <= 89 && yaw >= -20 && yaw <= 20)
 	{
 		viewAngles->x = pitch;
 		viewAngles->y = yaw;

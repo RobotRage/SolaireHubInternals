@@ -14,4 +14,5 @@ public:
 	int* GetTeam();
 	void AimAt(Vector3* target);
 	float GetDistance(Vector3*);
+	
 };
