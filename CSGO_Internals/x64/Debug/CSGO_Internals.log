@@ -1,9 +1,69 @@
-﻿  SolaireHub2.cpp
-h:\_hacks\csgo\internals\csgo_internals\csgo_internals\solairehub2.h(10): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
-h:\_hacks\csgo\internals\csgo_internals\csgo_internals\solairehub2.h(10): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
-h:\_hacks\csgo\internals\csgo_internals\csgo_internals\solairehub2.cpp(31): warning C4312: 'type cast': conversion from 'unsigned long' to 'DWORD *' of greater size
-h:\_hacks\csgo\internals\csgo_internals\csgo_internals\solairehub2.cpp(36): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
-h:\_hacks\csgo\internals\csgo_internals\csgo_internals\solairehub2.cpp(37): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+﻿  AntiFlash.cpp
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\antiflash.cpp(6): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+  Bhop.cpp
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\bhop.cpp(10): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\bhop.cpp(14): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+  Chams.cpp
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\chams.cpp(23): warning C4312: 'type cast': conversion from 'DWORD' to 'Chams::chams::GlowStruct *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\chams.cpp(27): warning C4312: 'type cast': conversion from 'DWORD' to 'unsigned char **' of greater size
+  CommonMethods.cpp
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\commonmethods.cpp(12): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\commonmethods.cpp(14): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\commonmethods.cpp(19): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\commonmethods.cpp(22): warning C4312: 'type cast': conversion from 'unsigned long' to 'DWORD *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\commonmethods.cpp(32): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\commonmethods.cpp(33): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\commonmethods.cpp(38): warning C4312: 'type cast': conversion from 'unsigned long' to 'DWORD *' of greater size
+  GlowEsp.cpp
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\glowesp.cpp(29): warning C4312: 'type cast': conversion from 'unsigned long' to 'DWORD *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\glowesp.cpp(34): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\glowesp.cpp(35): warning C4312: 'type cast': conversion from 'unsigned long' to 'DWORD *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\glowesp.cpp(50): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\glowesp.cpp(62): warning C4312: 'type cast': conversion from 'unsigned long' to 'GlowStruct *' of greater size
+  LocalPlayer.cpp
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\localplayer.cpp(13): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'uint32_t'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\localplayer.cpp(13): warning C4302: 'type cast': truncation from 'HMODULE' to 'uint32_t'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\localplayer.cpp(45): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\localplayer.cpp(52): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'uint32_t'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\localplayer.cpp(52): warning C4302: 'type cast': truncation from 'HMODULE' to 'uint32_t'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\localplayer.cpp(60): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\localplayer.cpp(62): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\localplayer.cpp(63): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Radar.cpp
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\radar.cpp(6): warning C4312: 'type cast': conversion from 'unsigned long' to 'DWORD *' of greater size
+  SolaireHub2.cpp
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.cpp(31): warning C4312: 'type cast': conversion from 'unsigned long' to 'DWORD *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.cpp(36): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.cpp(37): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+  TriggerBot.cpp
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\solairehub2.h(10): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\triggerbot.cpp(10): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\triggerbot.cpp(24): warning C4312: 'type cast': conversion from 'unsigned long' to 'DWORD *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\triggerbot.cpp(30): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+  aimbot.cpp
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\aimbot.cpp(14): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'uint32_t'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\aimbot.cpp(14): warning C4302: 'type cast': truncation from 'HMODULE' to 'uint32_t'
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\aimbot.cpp(17): warning C4312: 'type cast': conversion from 'uint32_t' to 'Player *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\aimbot.cpp(22): warning C4244: 'initializing': conversion from 'uintptr_t' to 'uint32_t', possible loss of data
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\aimbot.cpp(40): warning C4312: 'type cast': conversion from 'uint32_t' to 'float *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\aimbot.cpp(41): warning C4312: 'type cast': conversion from 'uint32_t' to 'float *' of greater size
+h:\_hacks\csgo\internals\csgo_internals\solairehubinternals\csgo_internals\aimbot.cpp(42): warning C4312: 'type cast': conversion from 'uint32_t' to 'float *' of greater size
+  Generating Code...
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
 Bhop.obj : warning LNK4006: "unsigned long m_dwLocalPlayer" (?m_dwLocalPlayer@@3KA) already defined in AntiFlash.obj; second definition ignored
 Bhop.obj : warning LNK4006: "unsigned long m_dwForceJump" (?m_dwForceJump@@3KA) already defined in AntiFlash.obj; second definition ignored
@@ -113,5 +173,5 @@ TriggerBot.obj : warning LNK4006: "struct ActiveCheats Active" (?Active@@3UActiv
 TriggerBot.obj : warning LNK4006: "struct MyPlayer Player" (?Player@@3UMyPlayer@@A) already defined in AntiFlash.obj; second definition ignored
 TriggerBot.obj : warning LNK4006: "class CommonMethods commonMethods" (?commonMethods@@3VCommonMethods@@A) already defined in SolaireHub2.obj; second definition ignored
 TriggerBot.obj : warning LNK4006: "unsigned long dwClient" (?dwClient@@3KA) already defined in AntiFlash.obj; second definition ignored
-H:\_HACKS\csgo\Internals\CSGO_Internals\x64\Debug\CSGO_Internals.dll : warning LNK4088: image being generated due to /FORCE option; image may not run
-  CSGO_Internals.vcxproj -> H:\_HACKS\csgo\Internals\CSGO_Internals\x64\Debug\CSGO_Internals.dll
+H:\_HACKS\csgo\Internals\CSGO_Internals\SolaireHubInternals\x64\Debug\CSGO_Internals.dll : warning LNK4088: image being generated due to /FORCE option; image may not run
+  CSGO_Internals.vcxproj -> H:\_HACKS\csgo\Internals\CSGO_Internals\SolaireHubInternals\x64\Debug\CSGO_Internals.dll

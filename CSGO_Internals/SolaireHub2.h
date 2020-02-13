@@ -1,8 +1,8 @@
 #pragma once
 #include "Adresses.h"
 #include "Windows.h"
-//#include "Hack.h"
-#include "Localplayer.h"
+
+
 
 //struct of all active cheats
 
@@ -37,6 +37,12 @@ struct ActiveCheats
 		bool aimBot; //todo: make
 
 }Active;
+
+struct aimbotRun
+{
+public:
+	void Run();
+}aimbotrun;
 
 struct MyPlayer
 {

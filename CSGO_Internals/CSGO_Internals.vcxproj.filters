@@ -27,16 +27,19 @@
     <ClInclude Include="SolaireHub2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\rober\Downloads\csgoaimbottest\BDKPlayer-CSGO-Aimbot-Tutorial\GH_Aimbot_Tutorial\Localplayer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\rober\Downloads\csgoaimbottest\BDKPlayer-CSGO-Aimbot-Tutorial\GH_Aimbot_Tutorial\Player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\rober\Downloads\csgoaimbottest\BDKPlayer-CSGO-Aimbot-Tutorial\GH_Aimbot_Tutorial\Vector3.h">
+    <ClInclude Include="aimbot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Hack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Localplayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
