@@ -1,5 +1,7 @@
 #pragma once
 
+float aimbotSnap = 1;
+
 class Vector3;
 class LocalPlayer
 {
@@ -7,6 +9,7 @@ class LocalPlayer
 private:
 
 	LocalPlayer();
+	
 
 public:
 
@@ -18,5 +21,5 @@ public:
 	int* GetTeam();
 	void AimAt(Vector3* target);
 	float GetDistance(Vector3*);
-
+	void calcPitchYaw(Vector3* target);
 };

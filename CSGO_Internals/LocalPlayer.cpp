@@ -47,6 +47,8 @@ float LocalPlayer::GetDistance(Vector3* other)
 
 double PI = 3.14159265358;
 
+
+
 void LocalPlayer::AimAt(Vector3* target)
 {
 	static uint32_t engineModule = (uint32_t)GetModuleHandle("engine.dll");
@@ -59,13 +61,23 @@ void LocalPlayer::AimAt(Vector3* target)
 	Vector3 deltaVec = { target->x - myPos->x, target->y - myPos->y, target->z - myPos->z };
 	float deltaVecLength = sqrt(deltaVec.x * deltaVec.x + deltaVec.y * deltaVec.y + deltaVec.z * deltaVec.z);
 
-	float pitch = -asin(deltaVec.z / deltaVecLength) * (180 / PI);
-	float yaw = atan2(deltaVec.y, deltaVec.x) * (180 / PI);
+   float pitch = -asin(deltaVec.z / deltaVecLength) * (180 / PI);
+float	yaw = atan2(deltaVec.y, deltaVec.x) * (180 / PI);
 
 	//if (pitch >= -89 && pitch <= 89 && yaw >= -180 && yaw <= 180)
-	if (pitch >= -89 && pitch <= 89 && yaw >= -20 && yaw <= 20)
+	if (pitch >= -89 && pitch <= 89 && yaw >= -180 && yaw <= 180)
 	{
-		viewAngles->x = pitch;
-		viewAngles->y = yaw;
+		if (yaw - viewAngles->y < aimbotSnap && yaw - viewAngles->y > -aimbotSnap)
+		{
+			viewAngles->x = pitch;
+			viewAngles->y = yaw;
+		}
+		else
+		{
+
+		}
+
 	}
 }
+
+
