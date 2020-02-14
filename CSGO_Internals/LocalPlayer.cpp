@@ -67,7 +67,7 @@ float	yaw = atan2(deltaVec.y, deltaVec.x) * (180 / PI);
 	//if (pitch >= -89 && pitch <= 89 && yaw >= -180 && yaw <= 180)
 	if (pitch >= -89 && pitch <= 89 && yaw >= -180 && yaw <= 180)
 	{
-		if (yaw - viewAngles->y < aimbotSnap && yaw - viewAngles->y > -aimbotSnap)
+		if (yaw - viewAngles->y < aimbotSnap && yaw - viewAngles->y > -aimbotSnap && pitch - viewAngles->x < aimbotSnap && pitch - viewAngles->x > -aimbotSnap)
 		{
 			viewAngles->x = pitch;
 			viewAngles->y = yaw;
