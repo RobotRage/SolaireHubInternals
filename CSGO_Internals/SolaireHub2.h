@@ -7,7 +7,7 @@
 //struct of all active cheats
 
 //get the dll
-DWORD dwClient = (DWORD)GetModuleHandle("client_panorama.dll");
+DWORD dwClient = (DWORD)GetModuleHandle("client.dll");
 
 //offsets
 DWORD m_dwLocalPlayer = hazedumper::signatures::dwLocalPlayer;

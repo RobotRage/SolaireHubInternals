@@ -99,13 +99,8 @@ Player* GetClosestEnemy()
 	float closestDitance = 1000000;
 	int closesDistanceIndex = -1;
 
-
 	float lowestPitch = 99999;
 	float lowestYaw = 99999;
-
-
-
-
 
 	for (int i = 1; i < *Player::GetMaxPlayer(); i++)
 	{
@@ -160,7 +155,6 @@ Player* GetClosestEnemy()
 
 void Run()
 {
-
 	Player* closestEnemy = GetClosestEnemy();
 
 	if (closestEnemy)
